@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Button from "../ui/Button/Button";
 import { ContainerCard } from "./style";
+import PropTypes from "prop-types";
 
 
 
@@ -15,6 +16,10 @@ const CardProject = ({project}) => {
             <Link href = {'/project/' + id}><a><Button>Touch</Button></a></Link>
         </ContainerCard>
       )
+}
+
+CardProject.propTypes = {
+   project: PropTypes.object
 }
  
 export default CardProject;

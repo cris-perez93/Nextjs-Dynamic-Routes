@@ -1,4 +1,5 @@
 import { Container, Title } from "./style";
+import PropTypes from "prop-types";
 
 
 
@@ -11,5 +12,10 @@ const ProjectModal = ({project}) => {
         </Container>
      );
 }
+
+ProjectModal.propTypes = {
+  project: PropTypes.object
+}
+
  
 export default ProjectModal;
