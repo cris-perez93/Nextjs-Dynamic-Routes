@@ -1,4 +1,4 @@
-import { Container, Title } from "./Style";
+import { Container, Title } from "./style";
 
 
 
